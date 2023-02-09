@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg;
+}
+.badge{
+    @apply bg-pink-100 text-[#ce934d] font-bold rounded-full text-xs uppercase p-2 absolute top-0 ml-2 mt-2;
+}
+.btn{
+    @apply mt-4 rounded-full py-3 px-2 uppercase text-xs font-bold cursor-pointer tracking-wider;
+}
+.lis{
+    @apply md: inline-block p-8  ;
+
+}
